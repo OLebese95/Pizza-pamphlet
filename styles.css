@@ -56,9 +56,9 @@ h4 {
     background-color: #ffb703;
     border-radius: 1em;
     justify-content: space-between;
-    padding:1em;
-    padding-left: 15em;
-    padding-right: 15em;
+    padding:auto;
+    padding-left: 1em;
+    padding-right: 1em;
     margin: 0.5em;
     margin-bottom: 0.5em;
   }
@@ -74,7 +74,7 @@ h4 {
 .items {
     display: flex: block;
     flex-wrap: wrap;
-    justify-content:safe;
+    justify-content:content;
     align-items: center;
 }
 
